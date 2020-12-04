@@ -1,0 +1,65 @@
+#header-1 {
+  margin-top: 0;
+  background: rgb(60, 110, 202);
+}
+#header-1 .wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#header-1 h1 {
+  color: #fff;
+  margin: 0;
+}
+#header-1 a {
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 14px;
+}
+#header-1 button.trial-btn {
+  border: none;
+  background: var(--black);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#header-2 {
+  background: var(--black);
+}
+#header-2 .wrapper {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+#header-2 h2 {
+  text-transform: capitalize;
+  margin: 0;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  #header-1 .col-1,
+  #header-1 .col-2 {
+    flex: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  #header-1 h1 {
+    font-size: 27px;
+  }
+  #header-1 a {
+    margin: 10px;
+    display: inline-block;
+  }
+  #header-2 {
+    text-align: center;
+  }
+}

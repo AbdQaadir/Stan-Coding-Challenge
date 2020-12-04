@@ -1,0 +1,19 @@
+.movie-item {
+  width: 130px;
+  margin: 15px 10px;
+}
+.movie-item img {
+  width: 100%;
+}
+.movie-item p.title {
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+  .movie-item {
+    width: 140px;
+    margin: 20px 20px;
+  }
+}
